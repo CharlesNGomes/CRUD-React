@@ -1,0 +1,11 @@
+header.header {
+    padding: 0 15px;
+    background: linear-gradient(to right, rgb(240, 242, 240), rgb(0, 12, 64));
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: var(--shadow);
+}
+
+header.header h1{
+    font-size: 1.8em;
+}

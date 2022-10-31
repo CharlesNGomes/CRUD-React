@@ -1,0 +1,58 @@
+:root{
+    --bg-darck : #1a2f3a;
+    --logo-height: 100px;
+    --header-height: 210px;
+    --asider-width: 225px;
+    --footer-width: 40px;
+    --menu-top-heigth: 70px;
+    --shadow :
+     0 2px 23px 0 rgba(0, 0, 0, 0.1),
+     0 2px 48px 0 rgba(0, 0, 0, 0.06)
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app{
+    margin: 0;
+    display: grid;
+    grid-template-columns: var(--asider-width) 1fr;
+    grid-template-rows: 
+    var(--header-height)
+    1fr
+    var(--footer-width);
+
+    grid-template-areas: 
+        "logo header"
+        "menu content"
+        "menu footer";
+    height: 100vh;
+  background-image: url('../assest//imgs/fundo.png');
+  background-size: 60%;
+}
+
+aside.logo{
+    grid-area: logo;
+}
+
+header.header{
+    grid-area: header;
+}
+
+aside.menu-area{
+    grid-area: menu;
+}
+
+footer.foot{
+    grid-area: footer;
+}
+
+div .conteudo{
+    display: flex;
+    justify-content: center;
+}
+
+

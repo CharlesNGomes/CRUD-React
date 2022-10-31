@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana Maria Silva",
+      "email": "anaM@empresa.com",
+      "tipo": "corte",
+      "fone": "11949428832"
+    },
+    {
+      "id": 2,
+      "name": "Eduado Costa Carvalho",
+      "email": "eduCarva@hotmail.com",
+      "tipo": "Traças",
+      "fone": "119876543"
+    },
+    {
+      "name": "Charles Neves Gomes",
+      "email": "charles10.gts@gmail.com",
+      "id": 3,
+      "tipo": "Traças e fio a fio",
+      "fone": "119875242"
+    },
+    {
+      "name": "marilia",
+      "email": "marilia.10@hotmail.com",
+      "tipo": "fio a fio",
+      "id": 4,
+      "fone": "1197652312"
+    }
+  ]
+}
